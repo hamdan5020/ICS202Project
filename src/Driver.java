@@ -15,11 +15,11 @@ public class Driver {
 		System.out.println(words.next());
 		Trie s = new Trie();
 		s.insert("STOP");
-		System.out.println(s.root.children[0].children[3].letter);
-		System.out.println(s.isEmpty());
-		System.out.println(s.size());
-		System.out.println(s.contain(" TOP"));
-		s.clear();
+		System.out.println(s.root.children.get(3).children);
+		//System.out.println(s.isEmpty());
+		//System.out.println(s.size());
+		//System.out.println(s.contain("OP"));
+		//s.clear();
 		//System.out.println(s.isEmpty());
 	}	
 
